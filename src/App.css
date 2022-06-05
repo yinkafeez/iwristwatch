@@ -1,0 +1,473 @@
+body{
+	background: rgb(229, 226, 226);
+}
+.body{
+	background: rgb(229, 226, 226);
+}
+
+/* STYLING WEBSITE TITLE */
+.productName{
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: #000;
+	margin: 0px 4rem;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 900;
+}
+
+
+
+
+/*STYLING NAV BAR*/
+/*.menuNav{
+	overflow-y: scroll;
+  	list-style: none;
+  	position: fixed;
+  	height: 100vh;
+  	overflow: hidden;
+  	color: orange;
+  	margin-top: -7px;
+  	float: right;
+}*/
+
+
+/*STYLING FEATURES*/
+.featuresDiv{
+	/* margin-top: -2.3rem; */
+	/* display: flex; */
+	background: #fff;
+	border-radius: 0.7rem;
+	height: 320px;
+	/* margin-left: -1rem; */
+}
+/* .featuresBtn{ */
+	/* margin-top: 2.7rem; */
+	/* margin-left: -5rem; */
+/* } */
+.featureButton{
+	background: none;
+	width: 150px;
+	height: 150px;
+	border: none;
+	/* margin-right:11px; */
+}
+.featureButton a{
+	text-decoration: none;
+}
+
+.featuresImg{
+	margin: 0 auto;
+	border-radius: 2rem;
+	/*margin-left: 1rem;	*/
+	/*padding-top: 2rem;*/
+	/*border-radius: 2rem*/;
+	/*justify-content: center;*/
+	/*justify-items: center;*/
+	/*justify-self: center;*/
+	/*background: skyhotpink;*/
+	/*padding: -2rem -15rem;*/
+	/*border-radius: 5rem;*/
+}
+
+.featuresText{
+	color: rgb(49, 48, 48);
+	font-size: 1rem;
+	font-family: sans-serif;
+	font-weight: 200;
+	margin-left: -0.6rem;
+	/* margin: 1rem 5rem 0rem; */
+}
+.featuresPrice{
+	color: #000;
+	font-size: 1rem;
+	font-family: sans-serif;
+	font-weight: 400;
+	margin-left: -2.8rem;
+}
+.secondFeatureDiv{
+	/* margin-top: -2.3rem; */
+	/* display: flex; */
+	background: #fff;
+	border-radius: 0.7rem;
+	height: 560px;
+	margin-bottom: 6rem;
+	/* margin-left: -1rem; */
+}
+.secondFeatureButton{
+	background: none;
+	/* width: 150px;
+	height: 150px; */
+	border: none;
+	margin-bottom:11px;
+	margin-left: 13px;
+}
+.secondFeatureButton a{
+	text-decoration: none;
+	color: #000;
+}
+.secondFeatureImg{
+	margin: 0 auto;
+	justify-content: center;
+	/* border-radius: 2rem; */
+}
+.secondFeatureText{
+	color: rgb(49, 48, 48);
+	font-size: 1.2rem;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+.secondFeaturesPrice{
+	color: #000;
+	font-size: 1.2rem;
+	font-family: sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+/* .thirdFeatureDiv{
+	margin-top: -0.7rem;
+	display: flex;
+	background: #fff;
+	border-radius: 0.7rem;
+	height: 270px;
+	margin-left: -1rem;
+}
+.thirdFeatureButton{
+	background: none;
+	width: 150px;
+	height: 150px;
+	border: 3px solid hotpink;
+	margin-left:11px;
+	
+}
+.thirdFeatureImg{
+	margin: 0 auto;
+	justify-content: center;
+}
+.thirdFeatureText{
+	color: rgb(49, 48, 48);
+	font-size: 1rem;
+	font-family: sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+} */
+
+/*Styling Feature1 Page*/
+.Feature1{
+	display: flex;
+}
+.Feature1 img{
+	margin: 5rem 12rem;
+}
+.Feature1 button{
+	padding: 10px 25px;
+	margin-top: 15rem;
+	color: white;
+	background: hotpink;
+	margin-left: -17rem;
+	border-radius: 1rem;
+	border: none;
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+.aboutFeature{
+	margin-top: 4.6rem;
+	margin-left: -7rem;
+}
+.aboutFeature h4 b{
+	color: hotpink;
+	font-weight: 600;
+}
+.aboutFeature h4{
+	font-weight: 400;
+	font-size: 2rem;
+}
+/*Styling Contact Button */
+.contactBtn{
+	font-weight: 900;
+	font-size: 2rem;
+	font-family: sans-serif;
+	color: white;
+	background: hotpink;
+	border: none;
+	border-radius: 10px;
+	padding: 1rem 1rem 1rem;
+	text-align: center;
+}
+
+/*STYLING NAVBAR*/
+
+.topNavbar{
+	position:fixed
+}
+
+/*Styling Link*/
+.active-link {
+  color: hotpink;
+  /*text-decoration: underline;*/
+}
+
+/*  Styling Sidebar nav */
+
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  position: fixed;
+  left: 40px;
+  /* top: 25px; */
+  z-index: 10;
+  cursor: pointer;
+  background: transparent;;
+  border: none;
+}
+
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+  height: 100vh;
+}
+
+.menuNav a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.menuNav a:hover{
+	color: hotpink;
+}
+.menuNav li:first-child {
+  margin-top: 7rem;
+}
+
+/*STYLING SIGN UP PAGE*/
+.SignUpPage{
+	background: #fff;
+	width: 30%;
+	border-radius: 2rem;
+	margin: 0 auto;
+	margin-top: 5rem;
+}
+.SignUpPage h1{
+	color:#000;
+	font-weight:600;
+	padding-top: 1rem;
+	text-align: center;
+	text-decoration: underline;
+}
+/*.SignUpPage button{
+	text-align: center;
+	margin: 0 auto;
+}*/
+.SignUpForm label{
+	color:#000;
+	font-weight: 600;
+	font-size: 1rem;
+	margin-left: 5rem;
+}
+.input-text{
+	/*font-size: rem;*/
+    font-weight: 400;
+    width: 60%;
+    padding:4px 1rem;
+    padding-left: 15px;
+    border-radius: 0.5rem;
+    border: 2px solid #000;
+	margin-left: 5rem;
+}
+.input-text::placeholder{
+	color: #000;
+}
+.radioInput{
+	/*display: flex;
+	justify-content: right;
+	margin-top:-1.2rem ;
+	flex-direction: column;*/
+	/*flex-wrap: wrap;*/
+	color: #000;
+	font-weight: 500;
+}
+.SignUpForm button {
+	color: white;
+	background: #000;
+	padding: 9px 0px 9px;
+	border: 2px solid #fff;
+	margin-left: 9rem;
+	border-radius: 12px;
+	width: 30%;
+	margin-bottom: 2rem;
+	font-weight: 800;
+	font-size: 1rem;
+}
+/*.SignUpForm input{
+	
+}*/
+
+/*STYLING LOGIN PAGE*/
+
+.LoginPage{
+	background: #fff;
+	width: 40%;
+	border-radius: 2rem;
+	margin: 0 auto;
+	margin-top: 5rem;
+}
+.LoginPage h1{
+	text-align: center;
+	color:#000;
+	font-weight:600;
+	padding-top: 1rem;
+	text-decoration: underline;
+}
+.LoginForm label{
+	color:#000;
+	font-weight: 600;
+	font-size: 1rem;
+	margin-left: 1rem;
+}
+.LoginForm .email{
+	font-weight: 400;
+    width: 60%;
+    padding:4px 1rem;
+    padding-left: 15px;
+    border-radius: 0.5rem;
+    border:2px solid #000;
+	margin-left: 1rem;
+}
+.LoginForm .password{
+	font-weight: 400;
+    width: 60%;
+    padding:4px 1rem;
+    padding-left: 15px;
+    border-radius: 0.5rem;
+    border: 2px solid#000;
+	margin-left: 3rem;
+}
+.LoginForm button {
+	color: white;
+	background: #000;
+	margin-left: 12rem;
+	padding: 9px 0px 9px;
+	border: #fff;
+	border-radius: 12px;
+	width: 30%;
+	margin-bottom: 2rem;
+	font-weight: 800;
+	font-size: 1rem;
+}
+
+/* STYLING ABOUT  PAGE*/
+.aboutPage h1{
+	padding: 50px 0px 0px;
+	margin-left:80px;
+	color: black;
+	font-weight: 600;
+}
+.aboutList{
+	list-style: none;
+}
+.aboutList h4{
+	margin-left:16rem;
+	color: grey;
+	text-decoration: none;
+	padding-top: 20px;
+}
+.aboutList :hover{
+	color: hotpink;
+}
+
+.aboutData{
+	padding: 50px 0px 0px;
+	margin-left:80px;
+}
+.aboutData h3{
+	text-decoration: underline;
+	color: black;
+}
+.aboutData h5{
+	margin-left:2rem;
+	color: grey;
+}
+
+
+/*STYLING PROFILE PAGE*/
+.myProfile{
+	
+	background: #fff;
+	width: 30%;
+	border-radius: 2rem;
+	margin: 0 auto;
+	margin-top: 5rem;
+	color: #000;
+	padding-bottom: 3rem;
+}
+.myProfile h1{
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 600;
+	font-family: sans-serif;
+	padding-top: 2rem;
+	text-decoration: underline;
+}
+.myProfile h3{
+	margin-left: 2rem;
+	font-size: 1.3rem;
+}
+
+
+/* STYLING FOOTER */
+.topFooterRow{
+	background: #000;
+	color: #fff;
+	margin-bottom: 3.5rem;
+}
+.titleCol{
+	margin-top: 1rem;
+	margin-left: 5px;
+}
+.col{
+	margin-top: 1rem;
+	/* margin-left: -2rem; */
+}
+form input{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right: 4.3rem;
+	padding-left:1rem;
+	border-radius: 5px;
+	border: none;
+	margin-right: 10px;
+}
+form button{
+	border: 2px solid#fff;
+	background: #000;
+	color: #fff;
+	border-radius: 6px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.secondFooterRow{
+	background: rgb(32, 32, 32);
+	color: #fff;
+}
+.secondFooterRow a{
+	text-decoration: none;
+	color: grey;
+}
