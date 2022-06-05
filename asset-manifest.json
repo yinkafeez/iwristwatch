@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/iwristwatch/static/css/main.33c0976b.css",
+    "main.js": "/iwristwatch/static/js/main.10fdbc13.js",
+    "static/media/product3.jpg": "/iwristwatch/static/media/product3.98d6d77443d31ac7142c.jpg",
+    "static/media/ad1.jpg": "/iwristwatch/static/media/ad1.81bcc78e48133d1ec772.jpg",
+    "static/media/ad5.jpg": "/iwristwatch/static/media/ad5.3ddaab06d50d6208ffcf.jpg",
+    "static/media/product5.jpg": "/iwristwatch/static/media/product5.4f3b6d2208a94e9045ae.jpg",
+    "static/media/product2.jpg": "/iwristwatch/static/media/product2.c6c6b787c5e69ad4262b.jpg",
+    "static/media/ad4.jpg": "/iwristwatch/static/media/ad4.64e08f3a458ea416e5e4.jpg",
+    "static/media/ad2.jpg": "/iwristwatch/static/media/ad2.5f6afaa937186c9485a6.jpg",
+    "static/media/product4.jpeg": "/iwristwatch/static/media/product4.4c00936db9162d1deb9b.jpeg",
+    "static/media/ad6.jpg": "/iwristwatch/static/media/ad6.41e2ac34efcdeaf3b085.jpg",
+    "static/media/product15.jpeg": "/iwristwatch/static/media/product15.510f02b3a897774c6600.jpeg",
+    "static/media/ad7.jpg": "/iwristwatch/static/media/ad7.8b4b6185db2131419db5.jpg",
+    "static/media/product8.jpeg": "/iwristwatch/static/media/product8.0780cfaa0bdd565e59ca.jpeg",
+    "static/media/product13.jpeg": "/iwristwatch/static/media/product13.281ed094761530a55d12.jpeg",
+    "static/media/ad3.jpg": "/iwristwatch/static/media/ad3.1523a3b2105c044d78a1.jpg",
+    "static/media/twitter.png": "/iwristwatch/static/media/twitter.1c05bd13f3ea47d6efcd.png",
+    "static/media/ig.png": "/iwristwatch/static/media/ig.c24021772ffb5103c969.png",
+    "index.html": "/iwristwatch/index.html",
+    "main.33c0976b.css.map": "/iwristwatch/static/css/main.33c0976b.css.map",
+    "main.10fdbc13.js.map": "/iwristwatch/static/js/main.10fdbc13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33c0976b.css",
+    "static/js/main.10fdbc13.js"
+  ]
+}
